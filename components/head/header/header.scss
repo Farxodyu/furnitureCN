@@ -1,0 +1,18 @@
+.title{
+  color: aquamarine;
+}
+.header{
+  background-image: url('././images/header/header_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 886px;
+  &__linear_gradient{
+    top: 0;
+    background: linear-gradient(180deg, #000000 -31.73%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    height: 175px;
+    z-index: 2;
+  }
+}

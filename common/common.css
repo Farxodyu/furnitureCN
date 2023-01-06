@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+button{
+    background: none;
+    outline: none;
+    border: none;
+}
+.container{
+    max-width: 1315px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+.main-container{
+    max-width: 1443px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+    background: var(--mainBg);
+}
+body {
+    font-family: var(--defaultFontFamily);
+    color: var( --defaulColor);
+    overflow-x: hidden;
+}
+.activeLang{
+    border-bottom: 2px solid var(--defaulColor);
+}
