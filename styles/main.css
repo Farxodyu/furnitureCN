@@ -95,7 +95,9 @@ html {
     bottom: 0;
     right: 0;
 }
-
+.countur-ru{
+    width: 283px !important;
+}
 .header__contacts {
     display: flex;
     justify-content: space-between;

@@ -5,7 +5,7 @@ const headerCategories = document.querySelectorAll('.header__categories__link');
 const text = document.querySelector(".product__text");
 
 text.innerHTML = text.innerHTML.split("").map(
-    (char,i)=>`<span style="transform: rotate(${i*8.5}deg)">${char}</span>`
+    (char,i)=>`<span style="transform: rotate(${i*9.5}deg)">${char}</span>`
 ).join("")
 
 

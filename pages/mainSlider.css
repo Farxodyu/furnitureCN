@@ -22,11 +22,7 @@
     bottom: 20%;
 }
 .slBg{
-    padding: 0;
-}
-.slTitle{
-    margin-top: -150px;
-    position: relative;
+    padding-top: 100px;
 }
 .slHeader{
     position: relative;

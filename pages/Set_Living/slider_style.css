@@ -11,12 +11,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.three{
-    background-image: url("./img/slider/3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}.four{
+.four{
     background-image: url("./img/slider/4.jpg");
     background-position: center;
     background-repeat: no-repeat;
