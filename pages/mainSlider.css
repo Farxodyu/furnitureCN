@@ -1,14 +1,23 @@
-.nav{
+.nav {
     position: absolute;
-    z-index: 10000;
+    z-index: 10000
 }
-.container{
+
+.container {
     max-width: 1315px;
     width: 100%;
     margin: auto;
-    padding: 0 15px;
+    padding: 0 15px
 }
-.slider-buttons{
+.header{
+    background-image: url(../images/main/background1.jpg);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: unset;
+}
+.slider-buttons {
     position: absolute;
     display: flex;
     justify-content: space-around;
@@ -18,60 +27,75 @@
     left: 0;
     right: 0;
     z-index: 98;
-    margin:  auto;
-    bottom: 20%;
+    margin: auto;
+    bottom: 20%
 }
-.slBg{
-    padding-top: 100px;
+
+.slBg {
+    padding-top: 100px
 }
-.slHeader{
-    position: relative;
+
+.slHeader {
+    position: relative
 }
-.navigation-block{
+
+.navigation-block {
     left: 500px;
     top: 0;
     right: 500px;
     margin: auto;
     width: 100%;
-    z-index: 100000;
+    z-index: 100000
 }
-.wrapper{
+
+.wrapper {
     position: relative;
     max-width: 100vw;
     margin: 0 auto;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0
 }
-.slider-container{
+
+.slider-container {
     overflow: hidden;
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
 }
-.slider-track{
+
+.slider-track {
     display: flex;
-    transition: .6s ease-in-out;
+    transition: .6s ease-in-out
 }
-.slider-item{
-    max-width: 100vh;
-    height: 100vh;
+
+.slider-item {
+    max-width: 100vw;
+    height: 100vh
 }
-.slider-buttons{
+
+.slider-buttons {
     text-align: end;
-    margin-top: 20px;
+    margin-top: 20px
 }
-.slider-buttons button{
-    border: 2px solid bisque;
+
+.slider-buttons button {
+    border: 2px solid #ffe4c4;
     color: var(--defaulColor);
     font-size: 25px;
     padding: 15px;
-    border-radius: 50%;
+    border-radius: 50%
 }
-.btn-prev{
-    margin-right: 25px;
+
+.btn-prev {
+    margin-right: 25px
 }
-.btn-next{
-    margin-right: 15px;
+
+.btn-next {
+    margin-right: 15px
 }
-.slider-buttons button:disabled{
+
+.slider-buttons button:disabled {
     border: 2px solid rgba(255, 228, 196, 0.56);
-    color: grey;
+    color: grey
 }
