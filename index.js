@@ -80,7 +80,7 @@ gsap.from('.product__img',{
     }
 })
 gsap.from('.title',{
-    x:100,
+    scale:0,
     autoAlpha: 0,
     duration:1,
     scrollTrigger:{
@@ -88,22 +88,19 @@ gsap.from('.title',{
     }
 })
 gsap.from('.development__img_card-block',{
-    x:-100,
+    scale:0,
     autoAlpha: 0,
     duration:1,
     scrollTrigger:{
         trigger:'.development__img_card-block',
-        scrub: true
     }
 })
 gsap.from('.development__descr',{
-    x:100,
+    scale:0,
     autoAlpha: 0,
     duration:1,
     scrollTrigger:{
         trigger:'.development__descr',
-        scrub: true,
-        start: 'top-=1500 bottom',
     }
 })
 gsap.from('.cards',{
